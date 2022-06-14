@@ -1,0 +1,40 @@
+body {background-color: rgb(19, 24, 41); color: white;}
+
+#background{
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.titel{
+    /* color: white; */
+    font-size: 100px;
+    position: absolute;
+}
+
+#one{top: 400px; left: 16px;}
+#two{top: 500px; left: 150px;}
+#three{top: 600px; left: 16px;}
+
+#topics {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+h5 {text-align: center;}
+
+#special{
+    margin: 40px;
+    font-size: 45;
+    text-align: center;
+
+}
+
+.imgTopic{
+    height: 250px;
+    width: 350px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
