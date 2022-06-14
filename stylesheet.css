@@ -1,15 +1,21 @@
 body {background-color: rgb(19, 24, 41); color: white;}
+/* body {color: red;} */
 
-#background{
+#rings{
     width: 100%;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 0 8px 8px white inset;
 }
 
 .titel{
     /* color: white; */
     font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
 }
+
+/* #top{
+    color: red;
+} */
 
 #one{top: 400px; left: 16px;}
 #two{top: 500px; left: 150px;}
@@ -27,7 +33,6 @@ h5 {text-align: center;}
     margin: 40px;
     font-size: 45;
     text-align: center;
-
 }
 
 .imgTopic{
@@ -37,4 +42,22 @@ h5 {text-align: center;}
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#ark{opacity: 0.5}
+
+#four{
+    position: absolute;
+    top: 1600px; left: 200px;
+}
+
+#five{
+    position: absolute;
+    top: 1650px; left: 400px;
+}
+
+#midel{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-shadow: 2px 2px #4ab8c8;
 }
