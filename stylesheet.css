@@ -1,6 +1,7 @@
 body {
     background-color: rgb(19, 24, 41); 
-    color: white;
+    /* color: white; */
+    color: rgb(219, 219, 219);
     margin: 0%;
 }
 
@@ -9,15 +10,31 @@ body {
     margin: 0%;
 } */
 
-header{
-    position: relative;
-    top: 20px;
-}
-
-nav {
+nav{
     display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    background-color: rgb(219, 219, 219);
     justify-content: space-between;
 }
+
+.nav_el{
+    width: 100px; height: 40px;;
+    background-color: #1f38ca;
+    border-radius: 7px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#order{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: goldenrod;
+    text-align: center;
+}
+
 
 #bannerI1{
     width: 100%;
@@ -25,7 +42,7 @@ nav {
 }
 
 .marvel{
-    color: white;
+    /* color: white; */
     font-size: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: absolute;
@@ -58,11 +75,10 @@ nav {
 
 h5 {text-align: center;}
 
-
 #bannerI2{opacity: 0.5}
 
 .forged{
-    color: rgb(255, 255, 255);
+    /* color: white; */
     font-size: 50px;
     text-shadow: 2px 2px #4ab8c8;
 }
