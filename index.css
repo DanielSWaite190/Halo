@@ -117,3 +117,77 @@ h5 {text-align: center;}
     font-size: 25px;
     /* font-family: */
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(19, 24, 41); 
+        /* background-color: red; */
+        width: 630px;
+    }
+
+    /* nav{
+        display: flex;
+        flex-direction: row;
+        border-radius: 7px;
+        background-color: rgb(219, 219, 219);
+        justify-content: space-between;
+    } */
+
+    #bannerI1{
+        /* height: 400px; */
+        /* width: 650px; */
+        box-shadow: 0 0 8px 8px white inset;
+    }
+    
+    .marvel{
+        /* color: white; */
+        font-size: 50px;
+    }
+    #mar_one{top: 40px; left: 16px;}
+    #mar_two{top: 80px; left: 150px;}
+    #mar_three{top: 130px; left: 16px;}
+
+    #topics {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        justify-content: space-around;
+    }
+
+    .imgTopic{
+        height: 500px;
+        /* width: 500px; */
+        width: 630px;
+
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* h5, p{
+        font-size: 50px;
+    } */
+
+    .forged{
+        /* color: white; */
+        font-size: 20px;
+        text-shadow: 2px 2px #4ab8c8;
+    }
+    #forg_four{
+        position: relative;
+        top: -210px;
+        left: 100px;
+    }
+    #forg_five{
+        position: relative;
+        top: -200px;
+        left: 200px;
+    }
+
+    #learn{
+        display: none;
+    }
+}
