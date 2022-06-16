@@ -18,7 +18,7 @@ nav{
     justify-content: space-between;
 }
 
-.nav_el{
+.nav_el {
     width: 100px; height: 40px;;
     background-color: #1f38ca;
     border-radius: 7px;
@@ -73,9 +73,17 @@ nav{
     margin-right: auto;
 }
 
+p {
+    text-align: center;
+}
+
 h5 {text-align: center;}
 
-#bannerI2{opacity: 0.5}
+#bannerI2 {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
 
 .forged{
     /* color: white; */
@@ -91,4 +99,23 @@ h5 {text-align: center;}
     position: absolute;
     top: 1790px;
     left: 400px;
+}
+
+#learn {
+    position: absolute;
+    top: 2000px; left: 300px;
+}
+#learn{
+    width: 200px; height: 90px;;
+    background-color: #1f38ca;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#learn_p{
+    color: rgb(219, 219, 219);
+    font-size: 25px;
+    /* font-family: */
 }
