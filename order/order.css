@@ -1,7 +1,5 @@
 body {
-    /* color: white; */
     background-color: rgb(19, 24, 41);
-    /* background-color: black; */
     color: rgb(219, 219, 219);
     margin: 0%;
 }
@@ -29,21 +27,6 @@ nav{
     text-align: center;
 }
 
-#options{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* align-items: center; */
-    
-    padding-top: 100px;
-}
-
-#pic {
-    width: 500px;
-    height: 400px;
-    border-radius: 8px;
-}
-
 h1 {text-align: center;}
 
 h3 {
@@ -51,9 +34,22 @@ h3 {
     text-align: center;
 }
 
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-top: 100px;
+}
 
 #hcards{
     text-align: center;
+}
+
+#pic {
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
 }
 
 
