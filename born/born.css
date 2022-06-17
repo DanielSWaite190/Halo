@@ -1,22 +1,9 @@
 body {
-    /* color: white; */
     background-color: rgb(19, 24, 41);
-
-    /* background-image: url(/media/ark.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100% 850px; */
-
     color: rgb(219, 219, 219);
     margin: 0%;
 }
 
-#banner_h1{
-    font-size: 80px;
-    color: white;
-    text-align: center;
-    /* position: absolute; */
-    /* top: 400px; left: 16px; */
-}
 
 nav{
     display: flex;
@@ -41,6 +28,11 @@ nav{
     text-align: center;
 }
 
+#banner_h1{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
 
 .info{
     font-size: 30px;
@@ -48,22 +40,15 @@ nav{
     position: relative;
 }
 
-
-
 #d_one{
-    /* margin-top: 80px; */
     width: 1000px;
     height: 148px;
-    /* border: 5px solid red; */
 
     float: left;
-
 }
-
 #d_two{
     width: 1000px;
     height: 170px;
-    /* border: 5px solid green; */
 
     margin-top: 50px;
     margin-bottom: 50px;
@@ -72,25 +57,11 @@ nav{
 #d_three{
     width: 1000px;
     height: 167;
-    /* border: 5px solid yellow; */
-    /* float: right; */
 }
 
-#i3{float: right;}
 img{border-radius: 7px;}
+#i3{float: right;}
 
-#right {
-    float: right;
-    padding-top: 70px;
-
-}
-
-#info{
-    /* text-align: center; */
-    /* font-size: 10px; */   
-}
-
-#test{padding-top: 100px;}
 
 iframe{
     padding-top: 100px;
@@ -119,12 +90,10 @@ footer {
         display: flex;
         flex-direction: column;
     }
-
     .info{
         width: 500px;
         font-size: 20px;
     }
-
 
     #d_one{
         width: 40px;
@@ -147,12 +116,6 @@ footer {
         width: 630px;
         text-align: center;
         float: right;
-
     }
 
-    /* iphoto */
-
-    /* #v{justify-content: center;}
-    
-    iframe{padding: 10px;} */
-}
+  }
