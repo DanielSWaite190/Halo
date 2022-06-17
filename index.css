@@ -88,11 +88,10 @@ h5 {text-align: center;}
     left: 400px;
 }
 
-#learn {
+#learn{
     position: absolute;
     top: 2000px; left: 300px;
-}
-#learn{
+
     width: 200px; height: 90px;;
     background-color: #1f38ca;
     border-radius: 20px;
