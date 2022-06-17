@@ -180,11 +180,15 @@ h5 {text-align: center;}
         position: relative;
         top: -210px;
         left: 100px;
+        width: 400px;
+        
+        margin: 0px;
     }
     #forg_five{
         position: relative;
         top: -200px;
-        left: 200px;
+        left: 150px;
+        width: 450px;
     }
 
     #learn{

@@ -88,9 +88,9 @@ img{border-radius: 7px;}
 
 #info{
     /* text-align: center; */
-    /* font-size: 10px; */
-    
+    /* font-size: 10px; */   
 }
+
 #test{padding-top: 100px;}
 
 iframe{
@@ -112,7 +112,8 @@ footer {
     }
 
     #bannerI1{
-        width: 630px;
+        width: 630;
+        height: 100;
     }
 
     #info{
@@ -120,15 +121,37 @@ footer {
         flex-direction: column;
     }
 
-    #d_one, #d_two, #d_three{
+    .info{
+        width: 500px;
+        font-size: 20px;
+    }
+
+
+    #d_one{
+        width: 40px;
+    }
+    #d_two{
+        width: 40px;
+    }
+    #d_three{
+        width: 40px;
+    }
+
+    #i1{
+        width: 600px;
+        height: 400;
+    }
+    #i2{
+        width: 630px;
+    }
+    #i3{
         width: 630px;
         text-align: center;
     }
 
-    .info{
-        font-size: 20px;
-    }
+    /* iphoto */
 
-    #v{justify-content: center;}
-    iframe{padding: 10px;}
+    /* #v{justify-content: center;}
+    
+    iframe{padding: 10px;} */
 }
