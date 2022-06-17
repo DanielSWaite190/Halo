@@ -73,11 +73,10 @@ nav{
     width: 1000px;
     height: 167;
     /* border: 5px solid yellow; */
-
-
-    float: left;
+    /* float: right; */
 }
 
+#i3{float: right;}
 img{border-radius: 7px;}
 
 #right {
@@ -147,6 +146,8 @@ footer {
     #i3{
         width: 630px;
         text-align: center;
+        float: right;
+
     }
 
     /* iphoto */
