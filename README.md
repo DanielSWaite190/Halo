@@ -1,2 +1,2 @@
-HTML Halo Store
+**HTML Halo Store**
 ![alt text](/media/readme_cover.png)
